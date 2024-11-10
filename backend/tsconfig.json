@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts", "src/index.ts", "src/controllers/chat-controllers.ts", "src/controllers/chats.ts", "src/controllers/user-controllers.ts"]
+}
